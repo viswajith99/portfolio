@@ -10,7 +10,7 @@ body {
    
     
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
     .container-fluid {
     }
 }
@@ -25,7 +25,7 @@ body {
 
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 700px) {
     .website-icon  a{
         color: orangered;
         text-decoration:none;
@@ -46,17 +46,6 @@ body {
 }
   
 
-
-
-.header-nav {
-    list-style: none;
-    display: flex;
-    gap: 30px;
-    position: absolute;
-    right: 150px;
-   
-
-}
 
 .header-nav {
     list-style: none;
@@ -96,6 +85,23 @@ body {
     font-size: 22px;
     font-weight: 500;
 }
+@media only screen and (max-width: 720px) {
+    .header-nav {
+        flex-direction: column;
+        gap: 15px;
+        right: 0;
+    }
+
+    .header-nav li {
+        text-align: center;
+    }
+
+    .header-nav li a {
+        padding: 10px;
+    }
+}
+
+
 
 .header-mediaicon {
     display: flex;
@@ -156,19 +162,18 @@ body {
     margin-bottom: 25px;
     margin-top: 80px;
     color: rgb(9, 41, 100);
+    position: relative;
    
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
     .f-h1 {
    
-        color: #333333;
-        font-size: 96px;
-        font-weight:700;
-        font-family: "Roboto";
-        text-align: center;
-        margin-bottom: 25px;
-        margin-top: 80px;
+        font-size: 48px;  
+        margin-top: 40px; 
+        margin-bottom: 15px;
         color: rgb(9, 41, 100);
+          
+       
        
     }
 }
@@ -180,14 +185,12 @@ body {
     text-align: center;
     margin-bottom: 25px;
     color: rgb(9, 41, 100);
+    position: relative;
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 700px){
     .f-para {
-        font-size: 26px;
-        font-weight: normal;
-        font-family: "Roboto";
-        text-align: center;
-        margin-bottom: 25px;
+        font-size: 18px;
+        margin-bottom: 15px;
         color: rgb(9, 41, 100);
     }
 }
@@ -199,18 +202,15 @@ body {
     padding: 0px;
     color: rgb(9, 41, 100);
     margin-left: 40px;
+    position: relative;
 
 }
 
 @media screen and (max-width: 750px){
     .f-para-abt {
-        font-size: 19px;
-        font-family: "Roboto";
-        margin: 0px;
-        padding: 0px;
+        font-size: 16px; 
+        margin-left: 20px; 
         color: rgb(9, 41, 100);
-        margin-left: 40px;
-    
     }
 
 }
