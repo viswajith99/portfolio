@@ -1,0 +1,328 @@
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700;900&display=swap');
+
+body {
+    background-image:url('green.jpeg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto";
+    
+    
+}
+@media screen and (max-width: 800px) {
+    .container-fluid {
+    }
+}
+.website-icon  a{
+    color: orangered;
+    text-decoration:none;
+    margin-left: 40px;
+    text-decoration: none;
+    padding-top: 16px;
+ 
+   
+
+}
+
+
+.website-marg{
+    margin:0px 45px;
+    
+}
+  
+
+.portfolio {
+    font-family: "Sofia", sans-serif;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 150px;
+   
+
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    position: absolute;
+    right: 150px;
+   
+
+}
+
+.header-nav li a {
+    border-radius: 10px;
+    padding: 5px;
+
+}
+
+
+.header-nav li a:hover {
+    background-color: rgb(65, 217, 231);
+
+
+}
+
+.header-imgicon {
+    height: 32px;
+    width: 32px;
+    padding: 0px 0px;
+}
+
+.header-nav li a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.header-mediaicon {
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    gap: 30px;
+    padding-top: 10px;
+    right: 100px;
+    position: absolute;
+
+}
+
+.header-mediaicon li:hover {
+    background-color: rgb(65, 217, 231);
+}
+
+.s-mediaicon {
+    list-style: none;
+    display: flex;
+    font-size: 40px;
+    gap: 20px;
+    margin-bottom: 25px;
+   justify-content: center;
+
+}
+
+.s-mediaicon li a {
+    text-align: center;
+}
+
+.s-mediaicon li:hover {
+    background-color: rgb(245, 241, 241);
+
+
+}
+
+.whtapp {
+    color: rgb(117, 196, 117)
+}
+
+.insta {
+    color: rgba(150, 40, 197);
+}
+.fb-color{
+    color: rgb(11, 116, 222);
+}
+.linkedin-color{
+    color: rgb(11, 116, 222);
+
+}
+
+.f-h1 {
+   
+    color: #333333;
+    font-size: 96px;
+    font-weight:700;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    color: rgb(9, 41, 100);
+   
+}
+
+.f-para {
+    font-size: 26px;
+    font-weight: normal;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 25px;
+    color: rgb(9, 41, 100);
+}
+
+.f-para-abt {
+    font-size: 19px;
+    font-weight: normal;
+    font-family: "Roboto";
+    text-align: center;
+    line-height: 1.5;
+    margin:0 45px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    color: rgb(9, 41, 100);
+
+}
+
+.section-about {
+    margin-left: 30px;
+}
+
+.about {
+    text-align: center;
+}
+
+.pf-img {
+    margin-top: 100px;
+    margin-left: 150px;
+    width: 200px;
+    height: 200px;
+
+}
+
+.input-txtbox {
+    width: 100px;
+    padding-left:75px;
+}
+
+.contact-inputbox {
+    margin-top: 30px;
+    padding-top: 30px;
+
+}
+
+.contact-msgbox {
+    padding-top: 50px;
+}
+
+.text-area {
+    margin-left: 50px;
+}
+
+.footer-bgcolor {
+    background-color: 
+
+}
+
+.footer-nav {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+
+.footer-nav li a {
+    color: gray;
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+    margin: auto;
+}
+.footer-border{
+    border-bottom: solid 2px rgb(192, 186, 186);
+    padding-top: 10px;
+
+}
+.floating-left{
+    float: left;
+    margin: 0px;
+}
+
+.contact-section{
+    padding: 50px 45px;
+    border-top: solid 2px rgb(192, 186, 186);
+    border-bottom: solid 2px rgb(192, 186, 186);
+    
+
+}
+.front-section{
+    margin-bottom: 30px;
+    padding-bottom: 130px;
+    border-bottom: solid 2px rgb(192, 186, 186);
+    
+
+}
+.btn-email{
+    margin-top: 10px;
+    color:aliceblue;
+    background-color:cadetblue;
+    border-color: black;
+    
+}
+.email-box{
+    padding-top: 10px;
+}
+.footer-name{
+    text-align: center;
+}
+
+.contact-mediaicon{
+    padding-bottom: 80px;
+}
+.about-section{
+    margin-bottom: 30px;
+    padding-bottom: 90px;
+    border-bottom: solid 2px rgb(192, 186, 186);
+
+}
+.front-headline{
+    color: #333333;
+    font-size: 70px;
+    font-weight: normal;
+    font-family: "Roboto";
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 80px;
+    color: rgb(9, 41, 100);
+   
+
+}
+.front-h2{
+   
+    font-size: 90px;
+    font-family: "Roboto";
+    margin-top: 90px;
+    padding-top: 100px;
+    font-weight: normal;
+    color: rgb(9, 41, 100);
+    
+}
+.front-p{
+    font-size: 33px;
+    font-family: "Roboto";
+    margin-bottom: 25px;
+    padding-left: 50px;
+    color: rgb(9, 41, 100);
+    margin-left: 80px;
+    padding-top: 30px;
+    
+
+}
+
+.section-front{
+    margin-left:60px;
+
+}
+.front-h3{
+    font-size: 50px;
+    font-family: "Roboto";
+    color: rgb(9, 41, 100);
+    padding: 50px;
+    font-weight: 500;
+   
+
+}
+.front-imgpf{
+    margin-left: 70px;
+  
+    
+}
