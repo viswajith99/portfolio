@@ -229,7 +229,16 @@ body {
     margin-left: 150px;
     width: 200px;
     height: 200px;
+    position: relative;
 
+}
+@media only screen and (max-width: 720px) {
+    .pf-img {
+        margin-top: 50px; 
+        margin-left: 50px; 
+        width: 100%;       
+        height: auto;      
+    }
 }
 
 .input-txtbox {
@@ -365,6 +374,86 @@ body {
   
     
 }
+@media only screen and (max-width: 720px) {
+    .front-imgpf {
+        margin-left: 20px; 
+    }
+}
 .footer-border{
     border-top: solid 2px rgb(192, 186, 186);
+}
+@media only screen and (max-width: 720px) {
+    
+    .input-txtbox {
+        width: 80%;
+        padding-left: 20px;
+    }
+
+    .contact-inputbox {
+        margin-top: 15px;
+        padding-top: 15px;
+    }
+
+    .contact-msgbox {
+        padding-top: 30px;
+    }
+
+    .text-area {
+        margin-left: 20px;
+    }
+
+    .footer-nav {
+        gap: 15px;
+    }
+
+    .footer-nav li a {
+        padding-top: 5px;
+    }
+
+    .floating-left {
+        float: none;
+        margin: 0;
+    }
+
+    .contact-section,
+    .front-section,
+    .about-section {
+        padding: 20px;
+    }
+
+    .btn-email,
+    .email-box {
+        margin-top: 5px;
+    }
+
+    .front-headline {
+        font-size: 40px;
+        margin-top: 40px;
+    }
+
+    .front-h2 {
+        font-size: 60px;
+        margin-top: 60px;
+        padding-top: 80px;
+        color: rgb(9, 41, 100);
+    }
+
+    .front-p {
+        font-size: 22px;
+        margin-bottom: 15px;
+        padding-left: 20px;
+        margin-left: 40px;
+        padding-top: 20px;
+        color: rgb(9, 41, 100);
+    }
+
+    .section-front {
+        margin-left: 20px;
+    }
+
+    .front-h3 {
+        font-size: 40px;
+        padding: 20px;
+        color: rgb(9, 41, 100);
+    }
 }
