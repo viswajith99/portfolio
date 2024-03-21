@@ -123,26 +123,28 @@
                 </div>
 
 
-                <form>
-
-
+                <form onsubmit="return handleSubmit()">
+                    <div id="message" class="alert alert-danger" style="display:none;">
+                        this is an error Message
+                    </div>
                     <div class="col-6 mx-auto w-50 ">
 
-                        <label for="exampleInputName" class="form-label">Name</label>
-                        <input type="Name" class="form-control " id="exampleInputName1">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="Name" class="form-control " id="name">
 
-                        <label for="exampleInputEmail1" class="form-label">Email</label>
-                        <input type="email" class="form-control email-box " id="exampleInputEmail1" aria-describedby="emailHelp">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control email-box " id="email" aria-describedby="emailHelp">
                         <div id="emailHelp" class="form-text"></div>
                     </div>
-                </form>
+               
 
                 <div class="col-6  mx-auto form-floating  email-box">
-                    <label for="floatingTextarea " class="text-area">Message</label>
+                    <label for="Textarea " class="text-area">Message</label>
                     <textarea class="form-control" cols="40" rows="10" placeholder="Leave a comment here"
-                        id="floatingTextarea"></textarea>
+                        id="Textarea"></textarea>
                     <button type="submit" class="btn btn-dark btn-email">Send email</button>
                 </div>
+            </form>
 
 
 
@@ -215,6 +217,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+        <script src="script.js"></script>
 </body>
 
 </html>
