@@ -10,7 +10,7 @@ body {
    
     
 }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
     .container-fluid {
     }
 }
@@ -25,7 +25,7 @@ body {
 
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 700px) {
     .website-icon  a{
         color: orangered;
         text-decoration:none;
@@ -85,7 +85,7 @@ body {
     font-size: 22px;
     font-weight: 500;
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 700px) {
     .header-nav {
         flex-direction:row;
         gap: 5px;
@@ -166,7 +166,7 @@ body {
     position: relative;
    
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 700px){
     .f-h1 {
    
         font-size: 48px;  
@@ -188,7 +188,7 @@ body {
     color: rgb(9, 41, 100);
     position: relative;
 }
-@media screen and (max-width: 720px){
+@media screen and (max-width: 700px){
     .f-para {
         font-size: 18px;
         margin-bottom: 15px;
@@ -207,7 +207,7 @@ body {
 
 }
 
-@media screen and (max-width: 720px){
+@media screen and (max-width: 700px){
     .f-para-abt {
         font-size: 16px; 
         margin-left: 20px; 
@@ -233,7 +233,7 @@ body {
     position: relative;
 
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 700px) {
     .pf-img {
         margin-top: 30px; 
         margin-left: 30px; 
@@ -375,7 +375,7 @@ body {
   
     
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 700px) {
     .front-imgpf {
         margin-left: 20px; 
     }
@@ -383,7 +383,7 @@ body {
 .footer-border{
     border-top: solid 2px rgb(192, 186, 186);
 }
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 700px) {
     
     .input-txtbox {
         width: 80%;
