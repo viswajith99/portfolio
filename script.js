@@ -5,7 +5,7 @@ function handleSubmit(){
     const Message=document.getElementById("Textarea").value;
     message.style.display="none";
 
-    if(name.length<=3){
+    if (name.length === 0 || name.length > 50 || !/^[a-zA-Z\s'-]+$/.test(name)){
         message.innerText="Please enter the valid Name";
         message.style.display="block";
         return false;
@@ -20,8 +20,10 @@ function handleSubmit(){
         message.style.display="block";
         return false;
     }
-    alert('sucess');
-    return false;
+        alert('sucess');
+        return true;
+    
+  
 
     
    
